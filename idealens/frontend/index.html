@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IdeaLens - Idea Analyzer</title>
+<meta name="theme-color" content="#5b5bf0">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/static/icons/icon-192.png">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💡</text></svg>">
+<link rel="stylesheet" href="/static/styles.css?v=2.1">
+</head>
+<body>
+<div id="root"><p style="padding:2rem;text-align:center;font-family:system-ui,sans-serif">Loading IdeaLens…</p></div>
+<noscript>Please enable JavaScript to use IdeaLens.</noscript>
+<script>
+/* Loads React (with backup CDNs) and then the app files in order. Shows a clear message instead of a blank page if anything fails. */
+(function () {
+  var V = "2.1";
+  var libs = [
+    ["React", ["https://unpkg.com/react@18.3.1/umd/react.production.min.js", "https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js", "https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.production.min.js"]],
+    ["ReactDOM", ["https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js", "https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js", "https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.production.min.js"]],
+    ["htm", ["https://unpkg.com/htm@3.1.1/dist/htm.umd.js", "https://cdn.jsdelivr.net/npm/htm@3.1.1/dist/htm.umd.js"]]
+  ];
+  var app = ["core", "i18n", "ui", "shared", "public", "student", "teacher", "admin", "app"];
+  var root = document.getElementById("root");
+  function fail(msg) {
+    root.innerHTML = '<div style="max-width:480px;margin:15vh auto;padding:1.5rem;font-family:system-ui,sans-serif;text-align:center"><h2>IdeaLens could not start</h2><p>' + msg +
+      '</p><button onclick="location.reload()" style="padding:.6rem 1.2rem;border:0;border-radius:10px;background:#5b5bf0;color:#fff;font-size:1rem;cursor:pointer">Try again</button></div>';
+  }
+  function add(src, ok, bad) {
+    var s = document.createElement("script"); s.src = src; s.async = false; s.onload = ok;
+    s.onerror = function () { s.parentNode && s.parentNode.removeChild(s); bad(); };
+    document.head.appendChild(s);
+  }
+  function tryUrls(urls, i, ok, bad) { if (i >= urls.length) return bad(); add(urls[i], ok, function () { tryUrls(urls, i + 1, ok, bad); }); }
+  function loadLib(n) {
+    if (n === libs.length) return loadApp(0);
+    var name = libs[n][0];
+    if (window[name]) return loadLib(n + 1);
+    tryUrls(libs[n][1], 0, function () { window[name] ? loadLib(n + 1) : fail("Could not load " + name + ". Please try again."); },
+      function () { fail("Could not download " + name + ". Check your internet connection and try again."); });
+  }
+  function loadApp(i) {
+    if (i === app.length) return;
+    add("/static/js/" + app[i] + ".js?v=" + V, function () { loadApp(i + 1); }, function () { fail("A file failed to load (" + app[i] + ".js). Please reload the page."); });
+  }
+  window.addEventListener("error", function (e) {
+    if (/Loading IdeaLens/.test(root.textContent || "")) fail("Something went wrong while starting (" + (e.message || "error") + "). Press Ctrl+F5 to reload.");
+  });
+  loadLib(0);
+})();
+</script>
+</body>
+</html>

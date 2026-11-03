@@ -1,0 +1,1045 @@
+[
+ {
+  "id": 1,
+  "title": "Smart Parking Finder",
+  "domain": "Smart City",
+  "description": "IoT sensors detect free parking slots and a mobile app guides drivers to the nearest available space.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 2,
+  "title": "Traffic Signal Optimizer",
+  "domain": "Smart City",
+  "description": "Computer vision counts vehicles at junctions and adjusts signal timing in real time to reduce congestion.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 3,
+  "title": "Smart Waste Bin Monitoring",
+  "domain": "Smart City",
+  "description": "Ultrasonic sensors report bin fill levels so collection routes are optimized and overflow is avoided.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 4,
+  "title": "Air Quality Dashboard",
+  "domain": "Smart City",
+  "description": "Low-cost sensors publish pollution levels across a city on a live map with health alerts.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 5,
+  "title": "Smart Street Lighting",
+  "domain": "Smart City",
+  "description": "Streetlights dim or brighten automatically using motion and ambient light sensors to save energy.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 6,
+  "title": "Predictive Maintenance for Machines",
+  "domain": "Manufacturing",
+  "description": "Vibration and temperature sensor data feed a machine learning model that predicts equipment failure before it happens.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 7,
+  "title": "Factory Defect Detection",
+  "domain": "Manufacturing",
+  "description": "Camera and deep learning inspect products on an assembly line and flag defective items automatically.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 8,
+  "title": "Production Line Dashboard",
+  "domain": "Manufacturing",
+  "description": "Web dashboard shows live output, downtime and efficiency metrics of factory production lines.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 9,
+  "title": "Inventory Tracking with RFID",
+  "domain": "Manufacturing",
+  "description": "RFID tags and readers track raw material and finished goods inventory across warehouses.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 10,
+  "title": "Worker Safety Monitoring",
+  "domain": "Manufacturing",
+  "description": "Wearable sensors and cameras detect missing helmets and unsafe zones in industrial plants.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 11,
+  "title": "Crop Disease Detection",
+  "domain": "Agriculture",
+  "description": "Farmers upload a leaf photo and a convolutional neural network identifies the plant disease with treatment advice.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 12,
+  "title": "Smart Irrigation System",
+  "domain": "Agriculture",
+  "description": "Soil moisture sensors and weather data automatically control water pumps to save water.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 13,
+  "title": "Crop Price Prediction",
+  "domain": "Agriculture",
+  "description": "Machine learning forecasts market prices of crops so farmers can decide when to sell.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 14,
+  "title": "Online Student Attendance System",
+  "domain": "Education",
+  "description": "Face recognition marks classroom attendance automatically and generates reports for faculty.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 15,
+  "title": "AI Study Planner",
+  "domain": "Education",
+  "description": "Recommendation engine builds personalised study schedules from a student's syllabus, exams and performance.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 16,
+  "title": "Plagiarism Checker for Assignments",
+  "domain": "Education",
+  "description": "NLP compares student submissions against a database to detect copied content.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 17,
+  "title": "Campus Event Management App",
+  "domain": "Education",
+  "description": "Mobile app to publish, register and track attendance for college events and clubs.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 18,
+  "title": "Online Exam Proctoring",
+  "domain": "Education",
+  "description": "Webcam and browser monitoring detect suspicious behaviour during online exams.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 19,
+  "title": "Disease Prediction from Symptoms",
+  "domain": "Healthcare",
+  "description": "Machine learning model predicts likely diseases from user-entered symptoms and suggests when to see a doctor.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 20,
+  "title": "Telemedicine Platform",
+  "domain": "Healthcare",
+  "description": "Video consultation, prescriptions and appointment booking between rural patients and doctors.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 21,
+  "title": "Medicine Reminder App",
+  "domain": "Healthcare",
+  "description": "Mobile app reminds elderly users to take medicines and notifies caregivers if doses are missed.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 22,
+  "title": "Patient Health Records on Blockchain",
+  "domain": "Healthcare",
+  "description": "Blockchain stores tamper-proof medical records shared securely between hospitals.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 23,
+  "title": "Expense Tracker with Budget Insights",
+  "domain": "Finance",
+  "description": "Web app categorises expenses automatically and gives monthly budgeting suggestions.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 24,
+  "title": "Credit Card Fraud Detection",
+  "domain": "Finance",
+  "description": "Anomaly detection models flag suspicious transactions in real time.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 25,
+  "title": "UPI Based Bill Splitting App",
+  "domain": "Finance",
+  "description": "Mobile app splits group expenses and settles them through UPI payments.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 26,
+  "title": "Solar Energy Monitoring",
+  "domain": "Environment & Energy",
+  "description": "IoT devices measure solar panel output and display efficiency analytics online.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 27,
+  "title": "Carbon Footprint Calculator",
+  "domain": "Environment & Energy",
+  "description": "Web tool estimates personal carbon emissions and recommends ways to reduce them.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 28,
+  "title": "Water Leakage Detection",
+  "domain": "Environment & Energy",
+  "description": "Flow sensors detect pipeline leaks in buildings and alert maintenance teams.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 29,
+  "title": "Fleet Tracking System",
+  "domain": "Transport & Logistics",
+  "description": "GPS trackers show live vehicle locations, routes and driver behaviour for delivery companies.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 30,
+  "title": "Last Mile Delivery Route Optimizer",
+  "domain": "Transport & Logistics",
+  "description": "Algorithm plans the shortest delivery routes for multiple stops considering traffic.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 31,
+  "title": "Bus Tracking App for Campus",
+  "domain": "Transport & Logistics",
+  "description": "Students see live college bus location and estimated arrival time on their phones.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 32,
+  "title": "Intrusion Detection System",
+  "domain": "Security",
+  "description": "Machine learning analyses network traffic to detect cyber attacks and unusual activity.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 33,
+  "title": "Face Recognition Door Lock",
+  "domain": "Security",
+  "description": "Embedded camera unlocks a door only for recognised faces and logs entries.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 34,
+  "title": "Password Manager",
+  "domain": "Security",
+  "description": "Encrypted vault stores and autofills passwords with a browser extension.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 35,
+  "title": "E-commerce Product Recommendation",
+  "domain": "E-commerce & Retail",
+  "description": "Recommendation engine suggests products to shoppers based on browsing and purchase history.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 36,
+  "title": "Smart Shopping Cart",
+  "domain": "E-commerce & Retail",
+  "description": "Cart with scanner and sensors lets customers skip billing queues in supermarkets.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 37,
+  "title": "Chatbot for Customer Support",
+  "domain": "E-commerce & Retail",
+  "description": "NLP chatbot answers common customer questions and escalates complex cases to humans.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 38,
+  "title": "Resume Analyzer and Job Matcher",
+  "domain": "Education",
+  "description": "NLP parses resumes, scores them against job descriptions and suggests skill improvements.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 39,
+  "title": "Idea Sharing Forum for Students",
+  "domain": "Education",
+  "description": "Community website where students post project ideas and get comments from peers.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 40,
+  "title": "Smart Home Energy Monitor",
+  "domain": "Environment & Energy",
+  "description": "IoT plugs measure appliance power use and a mobile app suggests ways to cut electricity bills.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 41,
+  "title": "Rainwater Harvesting Tracker",
+  "domain": "Environment & Energy",
+  "description": "Sensors track tank levels and rainfall and alert households when to use or conserve stored water.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 42,
+  "title": "Electric Vehicle Charging Finder",
+  "domain": "Transport & Logistics",
+  "description": "Mobile app shows nearby EV charging stations with live availability and booking.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 43,
+  "title": "Ride Sharing for Colleges",
+  "domain": "Transport & Logistics",
+  "description": "Students share cab rides to campus and split the fare automatically through a mobile app.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 44,
+  "title": "Warehouse Robot Path Planner",
+  "domain": "Manufacturing",
+  "description": "Algorithm plans collision-free routes for warehouse robots moving goods between racks.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 45,
+  "title": "Quality Prediction in Textile Mills",
+  "domain": "Manufacturing",
+  "description": "Machine learning predicts fabric quality from loom sensor data to cut rejects.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 46,
+  "title": "Remote Patient Monitoring Wearable",
+  "domain": "Healthcare",
+  "description": "Wearable measures heart rate and oxygen levels and alerts doctors when readings are abnormal.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 47,
+  "title": "Diabetes Diet Planner",
+  "domain": "Healthcare",
+  "description": "App creates meal plans for diabetic patients using glucose readings and food nutrition data.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 48,
+  "title": "Mental Wellness Journal App",
+  "domain": "Healthcare",
+  "description": "Mobile journal with mood tracking and guided breathing exercises to support stress management.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 49,
+  "title": "Ambulance Routing System",
+  "domain": "Healthcare",
+  "description": "Real-time traffic data finds the fastest route for ambulances and clears signals ahead.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 50,
+  "title": "Pharmacy Stock Finder",
+  "domain": "Healthcare",
+  "description": "Web app shows which nearby pharmacies have a medicine in stock.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 51,
+  "title": "Soil Health Card Mobile App",
+  "domain": "Agriculture",
+  "description": "Farmers scan soil test reports and get fertiliser recommendations in their language.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 52,
+  "title": "Farm to Home Marketplace",
+  "domain": "Agriculture",
+  "description": "Platform connecting farmers directly with households to sell fresh produce without middlemen.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 53,
+  "title": "Livestock Health Tracker",
+  "domain": "Agriculture",
+  "description": "Collar sensors monitor cattle temperature and activity to detect illness early.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 54,
+  "title": "Pest Detection Drone",
+  "domain": "Agriculture",
+  "description": "Drone images analysed with computer vision to locate pest-infested crop areas.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 55,
+  "title": "Personalised Learning Path Generator",
+  "domain": "Education",
+  "description": "Recommends courses and practice tasks based on a learner's goals, level and progress.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 56,
+  "title": "Virtual Chemistry Lab",
+  "domain": "Education",
+  "description": "Simulated laboratory lets school students run experiments safely in the browser.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 57,
+  "title": "Peer Tutoring Marketplace",
+  "domain": "Education",
+  "description": "Students offer and book short tutoring sessions on subjects they are strong in.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 58,
+  "title": "Quiz Generator from Notes",
+  "domain": "Education",
+  "description": "NLP turns uploaded lecture notes into multiple-choice practice questions.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 59,
+  "title": "Sign Language Learning App",
+  "domain": "Education",
+  "description": "Camera-based app teaches basic sign language and checks the learner's gestures.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 60,
+  "title": "Library Seat Booking System",
+  "domain": "Education",
+  "description": "Web app lets students reserve library seats and shows real-time occupancy.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 61,
+  "title": "Voice Assistant for Visually Impaired",
+  "domain": "Social & Community",
+  "description": "Smartphone assistant reads text, identifies objects and describes surroundings aloud.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 62,
+  "title": "Blood Donor Finder",
+  "domain": "Social & Community",
+  "description": "App connects blood donors with nearby hospitals and patients during emergencies.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 63,
+  "title": "Neighbourhood Help Network",
+  "domain": "Social & Community",
+  "description": "Community platform where neighbours request and offer help, tools and volunteer time.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 64,
+  "title": "Food Donation Connector",
+  "domain": "Social & Community",
+  "description": "Restaurants and events list surplus food and NGOs collect it before it is wasted.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 65,
+  "title": "Disaster Alert and Relief Coordinator",
+  "domain": "Social & Community",
+  "description": "Sends location-based disaster alerts and helps coordinate volunteers and relief supplies.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 66,
+  "title": "Local Language Chatbot for Government Services",
+  "domain": "Social & Community",
+  "description": "Chatbot explains government schemes and forms in regional languages through text and voice.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 67,
+  "title": "Personal Finance Coach",
+  "domain": "Finance",
+  "description": "App analyses spending habits and gives savings goals and investment awareness tips.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 68,
+  "title": "Invoice Reminder Tool for Freelancers",
+  "domain": "Finance",
+  "description": "Tracks invoices and sends automatic payment reminders to clients.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 69,
+  "title": "Micro Loan Credit Scoring",
+  "domain": "Finance",
+  "description": "Machine learning scores small borrowers using alternative data such as mobile payments.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 70,
+  "title": "Stock Portfolio Tracker",
+  "domain": "Finance",
+  "description": "Dashboard shows investment performance, risk and diversification across holdings.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 71,
+  "title": "Inventory Management for Small Shops",
+  "domain": "E-commerce & Retail",
+  "description": "Mobile app tracks stock, sales and low-inventory alerts for neighbourhood stores.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 72,
+  "title": "Virtual Try-On for Clothes",
+  "domain": "E-commerce & Retail",
+  "description": "Augmented reality lets shoppers preview clothes on themselves through a phone camera.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 73,
+  "title": "Price Comparison Browser Extension",
+  "domain": "E-commerce & Retail",
+  "description": "Extension shows the same product's price across online stores and tracks price drops.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 74,
+  "title": "Loyalty Points App for Local Businesses",
+  "domain": "E-commerce & Retail",
+  "description": "Digital stamp card and rewards program for cafes and salons.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 75,
+  "title": "Tourist Itinerary Planner",
+  "domain": "Travel & Hospitality",
+  "description": "Generates day-wise travel plans using interests, budget and opening times.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 76,
+  "title": "Hotel Room Service Chatbot",
+  "domain": "Travel & Hospitality",
+  "description": "Guests order food and request services through a chatbot instead of calling reception.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 77,
+  "title": "Local Guide Marketplace",
+  "domain": "Travel & Hospitality",
+  "description": "Travellers book verified local guides for walking tours and cultural experiences.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 78,
+  "title": "Home Workout Pose Corrector",
+  "domain": "Food & Lifestyle",
+  "description": "Camera and pose estimation check exercise form and give instant feedback.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 79,
+  "title": "Recipe Suggestion from Fridge Items",
+  "domain": "Food & Lifestyle",
+  "description": "Users photograph ingredients and the app proposes recipes that use them.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 80,
+  "title": "Calorie Tracker with Food Recognition",
+  "domain": "Food & Lifestyle",
+  "description": "Computer vision estimates calories from a meal photo and logs nutrition automatically.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 81,
+  "title": "Habit Building App with Streaks",
+  "domain": "Food & Lifestyle",
+  "description": "Mobile app helps users build daily habits with reminders, streaks and rewards.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 82,
+  "title": "Indie Game Level Designer",
+  "domain": "Media & Entertainment",
+  "description": "Web tool for creating and sharing simple 2D game levels with drag and drop.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 83,
+  "title": "Music Mood Recommender",
+  "domain": "Media & Entertainment",
+  "description": "Recommends playlists by detecting the listener's mood from text or activity.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 84,
+  "title": "Podcast Transcript Search",
+  "domain": "Media & Entertainment",
+  "description": "Speech-to-text indexes podcast episodes so listeners can search spoken content.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 85,
+  "title": "Rental Property Listing Platform",
+  "domain": "Real Estate & Construction",
+  "description": "Landlords list properties and tenants search, shortlist and message owners.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 86,
+  "title": "Construction Progress Tracker",
+  "domain": "Real Estate & Construction",
+  "description": "Site photos and checklists update project progress and flag delays for managers.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 87,
+  "title": "Smart Door Bell with Visitor Log",
+  "domain": "Security",
+  "description": "Camera doorbell recognises visitors, records a log and notifies the owner.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 88,
+  "title": "Phishing Link Detector",
+  "domain": "Security",
+  "description": "Machine learning checks URLs and messages to warn users about phishing attempts.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 89,
+  "title": "Women Safety Alert Wearable",
+  "domain": "Security",
+  "description": "Wearable button sends live location and an emergency alert to trusted contacts.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 90,
+  "title": "Deepfake Image Detector",
+  "domain": "Security",
+  "description": "Deep learning model flags manipulated or AI-generated images and videos.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 91,
+  "title": "Smart Attendance using QR",
+  "domain": "Education",
+  "description": "Rotating QR codes let students mark attendance within the classroom only.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 92,
+  "title": "Employee Leave Management System",
+  "domain": "General",
+  "description": "Web portal for leave requests, approvals and balance tracking in small companies.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 93,
+  "title": "Team Task Board with Analytics",
+  "domain": "General",
+  "description": "Kanban board that reports team velocity and overdue tasks.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 94,
+  "title": "Online Event Registration Platform",
+  "domain": "General",
+  "description": "Organisers create events, sell tickets and scan QR codes at the entrance.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 95,
+  "title": "Meeting Notes Summariser",
+  "domain": "General",
+  "description": "Speech recognition and NLP convert meeting recordings into summaries and action items.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 96,
+  "title": "Open Source Contribution Finder",
+  "domain": "General",
+  "description": "Matches developers with beginner-friendly open source issues based on their skills.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 97,
+  "title": "Bug Report Duplicate Detector",
+  "domain": "General",
+  "description": "NLP finds duplicate bug reports to reduce triage effort for development teams.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 98,
+  "title": "Code Review Assistant",
+  "domain": "General",
+  "description": "Static analysis and machine learning suggest improvements during pull requests.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 99,
+  "title": "Digital Notice Board",
+  "domain": "General",
+  "description": "Screens and a web portal publish announcements instantly across an organisation.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 100,
+  "title": "Waste Segregation using Image Classification",
+  "domain": "Smart City",
+  "description": "Camera and deep learning identify waste type so it drops into the right bin.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 101,
+  "title": "Public Toilet Cleanliness Monitor",
+  "domain": "Smart City",
+  "description": "Sensors and citizen ratings track cleanliness and alert municipal staff.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 102,
+  "title": "Pothole Reporting App",
+  "domain": "Smart City",
+  "description": "Citizens photograph potholes and the app geotags and forwards the report to the authority.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 103,
+  "title": "Smart Bus Stop Information Display",
+  "domain": "Transport & Logistics",
+  "description": "Live arrival times and crowd levels shown at bus stops and on a mobile app.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 104,
+  "title": "Freelancer Invoice and Payment Tracker",
+  "domain": "Business & Startups",
+  "description": "Web app lets freelancers create invoices, send reminders and track pending payments in one dashboard.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 105,
+  "title": "Startup Idea Validation Survey Tool",
+  "domain": "Business & Startups",
+  "description": "Platform runs quick surveys with target customers and summarises demand for a new product idea.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 106,
+  "title": "Small Shop Digital Billing and Stock App",
+  "domain": "Business & Startups",
+  "description": "Mobile app for small shop owners to bill customers, track stock and see daily sales.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 107,
+  "title": "CRM for Small Businesses",
+  "domain": "Business & Startups",
+  "description": "Simple customer relationship management tool that tracks leads, follow-ups and sales pipeline.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 108,
+  "title": "Social Media Post Scheduler",
+  "domain": "Business & Startups",
+  "description": "Tool schedules posts across social networks and suggests best posting times using engagement data.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 109,
+  "title": "Local Service Marketplace",
+  "domain": "Business & Startups",
+  "description": "App connects households with nearby electricians, plumbers and tutors with ratings and booking.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 110,
+  "title": "Volunteer Matching Platform",
+  "domain": "Social Impact",
+  "description": "Website matches volunteers with NGOs based on skills, location and availability.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 111,
+  "title": "Food Donation Network",
+  "domain": "Social Impact",
+  "description": "App connects restaurants with surplus food to nearby charities and tracks pickups.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 112,
+  "title": "Disaster Alert and Relief Coordination",
+  "domain": "Social Impact",
+  "description": "Platform sends flood and cyclone alerts and coordinates relief supplies and volunteers.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 113,
+  "title": "Crowdfunding Platform for Local Causes",
+  "domain": "Social Impact",
+  "description": "Website lets communities raise money for local projects with transparent spending reports.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 114,
+  "title": "Sign Language Translator",
+  "domain": "Social Impact",
+  "description": "Computer vision recognises sign language gestures and converts them into text and speech for accessibility.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 115,
+  "title": "Screen Reader Friendly Learning App",
+  "domain": "Social Impact",
+  "description": "Accessible learning app with voice navigation for visually impaired students.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 116,
+  "title": "Music Recommendation Engine",
+  "domain": "Media & Entertainment",
+  "description": "Recommendation system suggests songs based on listening history and mood.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 117,
+  "title": "Podcast Summariser",
+  "domain": "Media & Entertainment",
+  "description": "NLP tool transcribes podcasts and produces short summaries with chapter markers.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 118,
+  "title": "Multiplayer Quiz Game",
+  "domain": "Media & Entertainment",
+  "description": "Real-time multiplayer quiz game with leaderboards and category challenges.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 119,
+  "title": "Video Subtitle Generator",
+  "domain": "Media & Entertainment",
+  "description": "Speech recognition automatically generates and translates subtitles for videos.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 120,
+  "title": "Fan Community Streaming Platform",
+  "domain": "Media & Entertainment",
+  "description": "Live streaming website where creators host events and chat with fans.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 121,
+  "title": "Task and Habit Tracker",
+  "domain": "Productivity & Tools",
+  "description": "App tracks daily tasks and habits with reminders and weekly progress charts.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 122,
+  "title": "Team Project Management Board",
+  "domain": "Productivity & Tools",
+  "description": "Kanban style web tool for teams to assign tasks, set deadlines and track progress.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 123,
+  "title": "Smart Note Taking with Search",
+  "domain": "Productivity & Tools",
+  "description": "Notes app with tagging, full text search and automatic topic suggestions.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 124,
+  "title": "Meeting Minutes Generator",
+  "domain": "Productivity & Tools",
+  "description": "Tool converts meeting audio into minutes with action items and owners.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 125,
+  "title": "Workflow Automation Builder",
+  "domain": "Productivity & Tools",
+  "description": "No-code tool lets users connect apps and automate repetitive office tasks.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 126,
+  "title": "Document Scanner and OCR App",
+  "domain": "Productivity & Tools",
+  "description": "Mobile app scans documents, extracts text with OCR and saves searchable PDFs.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 127,
+  "title": "Travel Itinerary Planner",
+  "domain": "Travel & Hospitality",
+  "description": "App plans multi-day trips with maps, budget estimates and recommended places.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 128,
+  "title": "Hotel Room Booking System",
+  "domain": "Travel & Hospitality",
+  "description": "Website for searching, comparing and booking hotel rooms with online payment.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 129,
+  "title": "Restaurant Table Reservation App",
+  "domain": "Travel & Hospitality",
+  "description": "Mobile app to reserve tables, view menus and join waiting lists.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 130,
+  "title": "Local Tourist Guide with Audio Tours",
+  "domain": "Travel & Hospitality",
+  "description": "Location based app plays audio guides for monuments and local stories.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 131,
+  "title": "Language Learning Chatbot",
+  "domain": "Education",
+  "description": "Conversational chatbot helps learners practise a new language with feedback on grammar.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 132,
+  "title": "Skill Gap Analyzer for Careers",
+  "domain": "Education",
+  "description": "Tool compares user skills with job requirements and suggests courses to fill gaps.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 133,
+  "title": "Mental Wellness Journal",
+  "domain": "Healthcare",
+  "description": "Journaling app tracks mood over time and offers simple guided exercises.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 134,
+  "title": "Fitness Workout Planner",
+  "domain": "Healthcare",
+  "description": "App creates workout plans from goals and equipment and tracks progress.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 135,
+  "title": "Diet and Nutrition Tracker",
+  "domain": "Healthcare",
+  "description": "Mobile app logs meals, calculates calories and suggests balanced diets.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 136,
+  "title": "Hospital Appointment Queue Manager",
+  "domain": "Healthcare",
+  "description": "System books appointments and shows live queue status to reduce waiting time.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 137,
+  "title": "Smart Home Energy Controller",
+  "domain": "Environment & Energy",
+  "description": "IoT hub schedules appliances and reduces electricity use based on tariffs and occupancy.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 138,
+  "title": "Electric Vehicle Charging Station Finder",
+  "domain": "Transport & Logistics",
+  "description": "App shows nearby charging stations with availability, price and route planning.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 139,
+  "title": "Ride Sharing for Daily Commuters",
+  "domain": "Transport & Logistics",
+  "description": "Platform matches commuters travelling the same route to share rides and costs.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 140,
+  "title": "Warehouse Inventory Forecasting",
+  "domain": "E-commerce & Retail",
+  "description": "Machine learning predicts demand to plan stock levels and avoid shortages.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 141,
+  "title": "Fake News Detector",
+  "domain": "Security",
+  "description": "NLP model flags suspicious news articles and links to verified sources.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 142,
+  "title": "Phishing Email Detector",
+  "domain": "Security",
+  "description": "Classifier detects phishing emails and warns users before they click.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 143,
+  "title": "Online Identity Verification",
+  "domain": "Security",
+  "description": "Face match and document check verify user identity during onboarding.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 144,
+  "title": "Land Records Digitisation with Blockchain",
+  "domain": "Finance",
+  "description": "Blockchain stores land ownership records to prevent tampering and speed up transfers.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 145,
+  "title": "Pest Detection with Drone Imagery",
+  "domain": "Agriculture",
+  "description": "Drones capture field images and computer vision highlights pest affected areas.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 146,
+  "title": "Cold Storage Monitoring",
+  "domain": "Agriculture",
+  "description": "Sensors monitor temperature and humidity in cold storage and alert on spoilage risk.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 147,
+  "title": "Smart Attendance Using QR Codes",
+  "domain": "Education",
+  "description": "Teachers display a rotating QR code and learners scan it to mark attendance.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 148,
+  "title": "Citizen Complaint Portal",
+  "domain": "Smart City",
+  "description": "Website lets citizens report civic issues with photos and location and track resolution.",
+  "source": "sample-dataset"
+ },
+ {
+  "id": 149,
+  "title": "Public Transport Crowd Predictor",
+  "domain": "Smart City",
+  "description": "Model predicts how crowded buses and trains will be so commuters can plan trips.",
+  "source": "sample-dataset"
+ }
+]

@@ -1,0 +1,14 @@
+services:
+  mongo:
+    image: mongo:7
+    volumes: [mongo_data:/data/db]
+  app:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      MONGO_URL: mongodb://mongo:27017
+      JWT_SECRET: change-me-in-production
+      ANTHROPIC_API_KEY: ""
+    depends_on: [mongo]
+volumes:
+  mongo_data:

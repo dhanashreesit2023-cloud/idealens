@@ -1,0 +1,19 @@
+# Render Blueprint: New + -> Blueprint -> pick this repo. Every push to main redeploys automatically (CD).
+services:
+  - type: web
+    name: idealens
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: JWT_SECRET
+        generateValue: true
+      - key: MONGO_URL
+        sync: false
+      - key: TEACHER_CODE
+        sync: false
+      - key: ADMIN_CODE
+        sync: false
